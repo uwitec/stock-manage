@@ -1,0 +1,63 @@
+﻿/*=========================================================
+/* Accordion */
+.accordionHeader
+{
+	border: solid 1px #99BBE8;
+	background-color: #E3F1F4;
+	background-image: url("../../../Images/Main/BlockHeader.gif");
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+	text-align: left;
+}
+
+.accordionHeaderSelected
+{
+	border: solid 1px #99BBE8;
+	text-align: left;
+	background-image: url("../../../Images/Main/BlockHeader.gif");
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.accordionContent
+{
+	border: solid 1px #99BBE8;
+	border-top: none;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+/*=========================================================*/
+
+
+.collapsePanelHeader
+{
+	border: solid 1px #99BBE8;
+	background-image: url("../../../Images/Main/BlockHeader.gif");
+	background-repeat: repeat-x;
+	font-weight: bold;
+	height: 28px;
+}
+
+.collapsePanel
+{
+	overflow: hidden;
+	border-left: solid 1px #99BBE8;
+	border-bottom: solid 1px #99BBE8;
+	border-right: solid 1px #99BBE8;
+}
+
+/*=========水印================================================*/
+
+.watermarked
+{
+	color: gray;
+	font-family: Tahoma;
+	font-size: 11pt;
+	border: solid 1px #99BBE8;
+}

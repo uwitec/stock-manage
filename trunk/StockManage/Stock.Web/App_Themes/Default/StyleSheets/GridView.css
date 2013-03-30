@@ -1,0 +1,107 @@
+﻿
+.GridView_Header
+{
+    font-family: Arial Narrow, Arial;
+    background-color: #EBECEE;
+    background-image: url(../../../Images/GridView/GridViewHeader.gif);
+    text-align: center;
+    height: 26px;
+   /* position: relative;
+    table-layout: fixed;
+    top: expression(this.offsetParent.scrollTop);
+    z-index: 10;*/
+}
+.GridView_Header td
+{
+    /*text-overflow: ellipsis;
+    overflow: hidden;*/
+    white-space: nowrap;
+    padding: 2px;
+    border-right: solid 1px #D0D0D0;
+    background-image: url(../../../Images/GridView/GridViewHeader.gif);
+}
+.GridView_Header a:link
+{
+    color: #000000;
+}
+.GridView_Header a:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.GridView_Row
+{
+    height: 20px;
+    background-color: #F5F8FA;
+}
+.GridView_Row td
+{
+    height: 20px;
+    width:100%;
+    background-color: #FFFFFF;
+    word-break: keep-all; /* 不换行 */
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+
+.GridView_Alter
+{
+    height: 20px;
+    background-color: #DDEDF4; /*#E0E6F5;*/
+}
+.GridView_Select
+{
+    height: 20px;
+    background-color: #FFF1D5;
+}
+.GridView_Footer
+{
+    height: 20px;
+    background-color: #FFF5EC;
+}
+
+.GridView_Row td
+{
+    padding: 0px 2px 0px 2px;
+    border-right: solid 1px #EEEEEE;
+}
+.GridView_Alter td
+{
+    padding: 0px 2px 0px 2px;
+    border-right: solid 1px #EEEEEE;
+}
+.GridView_Select td
+{
+    padding: 0px 2px 0px 2px;
+    border-right: solid 1px #FFFFFF;
+}
+.GridView_Footer td
+{
+    padding: 0px 2px 0px 2px;
+    border-right: solid 1px #EEEEEE;
+}
+.GridView_SpanCell
+{
+    background-color: #EEF8F9;
+}
+
+.GridView_Row_Approve
+{
+    height: 20px;
+    background-color: #FFE9CA;
+}
+.GridView_Row_Reject
+{
+    height: 20px;
+    background-color: #FFC6C6;
+}
+
+.GridView
+{
+    border: solid 1px #59779B;
+    background: #FFFFFF;
+    table-layout:fixed;
+}

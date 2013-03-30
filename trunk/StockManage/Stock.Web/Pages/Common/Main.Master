@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="EDI.Web.Pages.Common.Main" %>
+
+<%@ Register src="../../UserControls/WaitingBar.ascx" tagname="WaitingBar" tagprefix="zph" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <script type="text/javascript" src="../../Scripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/jQuery.easyui.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+    <ajaxToolkit:ToolkitScriptManager ID="scrmMain" runat="server" CombineScripts="True">
+    </ajaxToolkit:ToolkitScriptManager>
+    <div>
+        <asp:ContentPlaceHolder ID="cphMain" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <zph:WaitingBar ID="WaitBar1" runat="server" />
+    </form>
+</body>
+</html>

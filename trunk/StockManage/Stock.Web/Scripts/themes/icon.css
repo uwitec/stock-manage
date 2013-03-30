@@ -1,0 +1,63 @@
+.icon-blank {
+    background: url("icons/blank.gif") no-repeat scroll 0 0 transparent;
+}
+.icon-add {
+    background: url("icons/edit_add.png") no-repeat scroll 0 0 transparent;
+}
+.icon-edit {
+    background: url("icons/pencil.png") no-repeat scroll 0 0 transparent;
+}
+.icon-remove {
+    background: url("icons/edit_remove.png") no-repeat scroll 0 0 transparent;
+}
+.icon-save {
+    background: url("icons/filesave.png") no-repeat scroll 0 0 transparent;
+}
+.icon-cut {
+    background: url("icons/cut.png") no-repeat scroll 0 0 transparent;
+}
+.icon-ok {
+    background: url("icons/ok.png") no-repeat scroll 0 0 transparent;
+}
+.icon-no {
+    background: url("icons/no.png") no-repeat scroll 0 0 transparent;
+}
+.icon-cancel {
+    background: url("icons/cancel.png") no-repeat scroll 0 0 transparent;
+}
+.icon-reload {
+    background: url("icons/reload.png") no-repeat scroll 0 0 transparent;
+}
+.icon-search {
+    background: url("icons/search.png") no-repeat scroll 0 0 transparent;
+}
+.icon-print {
+    background: url("icons/print.png") no-repeat scroll 0 0 transparent;
+}
+.icon-help {
+    background: url("icons/help.png") no-repeat scroll 0 0 transparent;
+}
+.icon-undo {
+    background: url("icons/undo.png") no-repeat scroll 0 0 transparent;
+}
+.icon-redo {
+    background: url("icons/redo.png") no-repeat scroll 0 0 transparent;
+}
+.icon-back {
+    background: url("icons/back.png") no-repeat scroll 0 0 transparent;
+}
+.icon-sum {
+    background: url("icons/sum.png") no-repeat scroll 0 0 transparent;
+}
+.icon-tip {
+    background: url("icons/tip.png") no-repeat scroll 0 0 transparent;
+}
+.icon-mini-add {
+    background: url("icons/mini_add.png") no-repeat scroll 2px 2px transparent;
+}
+.icon-mini-edit {
+    background: url("icons/mini_edit.png") no-repeat scroll 2px 2px transparent;
+}
+.icon-mini-refresh {
+    background: url("icons/mini_refresh.png") no-repeat scroll 3px 2px transparent;
+}

@@ -1,0 +1,204 @@
+﻿
+div
+{
+    /*overflow-x: hidden;     overflow-y: hidden; */
+}
+div.SearchHolder
+{
+    border-bottom: 1px solid #99BBE8;
+    border-left: 1px solid #99BBE8;
+    border-right: 1px solid #99BBE8;
+    border-top: 1px solid #99BBE8;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+div.SearchMain
+{
+    background-position: center top;
+    background-repeat: repeat-x;
+    width: 100%;
+    border: solid 1px #99BBE8;
+    background-color: Transparent;
+    background-repeat: repeat;
+    color: #15428B;
+    font-weight: bold;
+    vertical-align: baseline;
+    display: block;
+    margin: auto;
+}
+
+
+div.SearchHeader
+{
+    background-image:url("../../../Images/Main/BlockHeader.gif") ;
+    text-align: left;    
+    border:solid 1px #99BBE8;     
+    display: block;
+    height:21px;
+    margin-right:4px;
+    margin-left:4px;
+    margin-top:2px;
+}
+
+div.SearchBottom
+{
+    background-image: url("../../../Images/Main/BlockHeader.gif");
+    text-align: center;
+    border: solid 1px #99BBE8;
+    display: block;
+    margin-bottom: 0px;
+    padding: 2px;
+    margin-top:-2px;
+     margin-right:4px;
+    margin-left:4px;
+    height:21px;
+    
+}
+div.SearchBody
+{
+    font-weight: normal;
+    margin: -2px 4px 2px 4px;
+    display: block;
+     
+    border-left:solid 1px #99BBE8;
+    border-right:solid 1px #99BBE8;
+    border-bottom:solid 1px #99BBE8;   
+ 
+}
+
+div.PanelBody
+{
+    /*border: solid 1px #99BBE8;*/
+    border-top:none;
+    color: #15428B;
+    background-color:#E3F1F4;
+    
+}
+
+div.PanelBottom
+{
+    background-image: url("../../../Images/Main/ToolBarBG.gif");
+    margin:auto;
+    border-top:solid 1px #99BBE8;
+    display: block;
+    background-color: transparent;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll; 
+    height:25px;
+    text-align:center;
+    color: #15428B;
+    font-weight:bold;
+   
+    
+}
+
+
+.ToolBar
+{
+    background-color: #D0DEF0;
+    background-image: url("../../../Images/Main/ToolBarBG.gif");
+    border: solid 1px #A9BFD3;
+}
+
+.PanelHeader 
+{
+	 background-image: url("../../../Images/Main/header.PNG") ;
+    border: 1px solid #99BBE8;
+    color: #15428B;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 2px;
+    position: relative;
+}
+.SubPanelHeader 
+{
+	background-image: url("../../../Images/Main/SubHeader.PNG") ;
+    border-left: 1px solid #99BBE8;
+    border-right:1px solid #99BBE8;
+    border-bottom:1px solid #99BBE8;
+    color: #15428B;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 2px;
+    position: relative;
+}
+.PanelTitle
+{
+	background-image: url("../../../Images/Main/header.PNG") ;
+    border: 1px solid #99BBE8;
+    color: #15428B;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 2px;
+    height:19px;
+    position: relative;
+}
+/* ===========================TextBox================================= */
+.TextBoxCommon
+{
+    border: solid 1px #99BBE8;
+    font-family: Tahoma;
+    font-size: 11pt;
+}
+.TextBoxFocus
+{
+    border: solid 1px #99BBE8;
+    background-color: #F3FCFC;
+    font-family: Tahoma;
+    font-size: 11pt;
+}
+.TextBoxDisable
+{
+    border: solid 1px #999999;
+    background-color: #ffffff;
+    font-family: Tahoma;
+    font-size: 11pt;
+}
+
+
+/*=============================遮罩层========================================*/
+.ModalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+.ModalPopup
+{
+    background-color: #E3F1F4;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #99BBE8;
+    padding: 0px;
+   
+}
+
+
+
+/*========================================================================*/
+.DivButton_mouseOver
+{
+    height: 20px;
+    width: 80px;
+    background-image: url(../../Images/Main/GridHeaderHover.gif);
+}
+.DivButton_mouseOut
+{
+    height: 20px;
+    width: 80px;
+    background-color: transparent;
+    background-image: none;
+}
+
+/*========================================================================*/

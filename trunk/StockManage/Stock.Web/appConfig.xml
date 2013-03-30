@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ROOT>
+  <!--应用程序部署信息-->
+  <COM>
+    <!--当前程序集的名称-->
+    <ProgramName>ZPHIT.DBService</ProgramName>
+    <!--使用的数据库服务工厂类型-->
+    <DBServiceFactoryType>DBService.Imp.Oracle10g.OracleServiceFactory</DBServiceFactoryType>
+    <!--使用的加密密钥-->
+    <EncrypKey>ZPHIT</EncrypKey>
+  </COM>
+
+  <!--数据库配置信息：
+  公司开发数据库（IP地址：006BF46FD452D25BC1B8B2BEBEA7；端口号：240F140E76；实例名：E30424C4678F；用户名：3AD749DE7B；密码：0700111620）-->
+
+  <DATABASE>
+
+    <!--上线数据库205:21/zphit EDIONLINE/EDIONLINE-->
+    <!--<DBHost>3138211B0065C1A99F86E0492916</DBHost>
+    <DBPort>240F140E76</DBPort>
+    <DBSID>E30424C4678F</DBSID>
+    <DBUserID>312C202139D37A93A9A7</DBUserID>
+    <DBPassword>918C808199B35AF30A06</DBPassword>-->
+
+    <!--公司开发测试数据库205:21/zphit EDITEST/EDITEST-->
+    <DBHost>3138211B0065C1A99F86E0492916</DBHost>
+    <DBPort>240F140E76</DBPort>
+    <DBSID>E30424C4678F</DBSID>
+    <DBUserID>0D081C2DC85AF71C</DBUserID>
+    <DBPassword>110C00011C35D277</DBPassword>
+
+  
+
+  </DATABASE>
+
+  <!--作业消息服务器配置信息-->
+  <HINT>
+    <ServerPort>F971F16AD257</ServerPort>
+    <Enable>n</Enable>
+  </HINT>
+
+  <!-- 配置自动更新软件 -->
+  <AUTOUPDATE>
+    <UpdateName>AutoUpdate</UpdateName>
+    <UseAutoUpdate>n</UseAutoUpdate>
+    <AutoUpdateSWPath>AutoUpdateClient</AutoUpdateSWPath>
+    <Version>v</Version>
+  </AUTOUPDATE>
+
+  <!-- 配置软件 -->
+  <SysConfig>
+    <ConfigName>SysConfig</ConfigName>
+    <SysConfigSWPath>SysConfig</SysConfigSWPath>
+    <Version>v</Version>
+  </SysConfig>
+</ROOT>
