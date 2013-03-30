@@ -1,0 +1,166 @@
+﻿body
+{
+	height: 100%;
+	color: #15428B;
+	margin: 0px auto 0px auto;
+	font-size: 12px;
+	font-family: Tahoma,Verdana,微软雅黑,新宋体;
+	background-color: #E3F1F4; /* background-color:#999999;*/
+	background-repeat: repeat-x; /* background-attachment: fixed; */
+	word-break: break-all;
+	vertical-align: middle;
+	border: 0 none;
+	padding: 0;
+	scrollbar-face-color: #F7F7F7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-3dlight-color: #D4D0C8;
+	scrollbar-arrow-color: #99BBE8;
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-darkshadow-color: #D4D0C8;
+}
+form
+{
+	height: 100%;
+	overflow-x: hidden;
+ 
+}
+
+iframe
+{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+ 
+}
+
+a:link
+{
+	color: #0000FF;
+}
+a:hover
+{
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a.Lang
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover.Lang
+{
+	color: #FF99AA;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+td
+{
+	vertical-align: middle;
+}
+img
+{
+	vertical-align: middle;
+}
+
+
+a.c-l-btn
+{
+	color: #444444;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	height: 23px;
+	outline: medium none;
+	padding-right: 5px;
+	text-decoration: none;
+}
+a.c-l-btn-plain
+{
+	background: none repeat scroll 0 0 transparent;
+	border: 1px solid transparent!important;  /*边框透明 兼容性问题，IE7+FF*/
+	_border-color:tomato;     /*仅IE6 边框透明*/
+    _filter:chroma(color=tomato);/*仅IE6 边框透明*/
+
+	padding-right: 5px;
+}
+/*a.l-btn-disabled{
+	color:#ccc;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	cursor:default;
+}*/
+a.c-l-btn-disabled
+{
+	color: #A0A0A0;
+	cursor: default;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	filter: gray;
+	border: 1px solid transparent!important;/*边框透明 兼容性问题，IE7+FF*/
+	_border-color:tomato;     /*仅IE6 边框透明*/
+    _filter:chroma(color=tomato);/*仅IE6 边框透明*/
+}
+a.c-l-btn span.c-l-btn-left
+{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding: 4px 0 4px 5px;
+}
+a.c-l-btn-plain span.c-l-btn-left
+{
+	padding-left: 5px;
+}
+a.c-l-btn span span.c-l-btn-text
+{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding: 0;
+}
+a.c-l-btn span span span.c-l-btn-empty
+{
+	display: inline-block;
+	padding: 0;
+	width: 16px;
+}
+a.c-l-btn:hover
+{
+	background-position: right bottom;
+	outline: medium none;
+}
+a.c-l-btn:hover span.c-l-btn-left
+{
+	background-position: left bottom;
+}
+a.c-l-btn-plain:hover
+{
+	background: url("../../../../scripts/EasyUI/Themes/default/images/button_plain_hover.png") repeat-x scroll left bottom transparent;
+	border: 1px solid #7EABCD;
+	border-radius: 3px 3px 3px 3px;
+	background-position: right bottom;
+}
+a:hover.l-btn-disabled
+{
+	background-position: top right;
+}
+a:hover.l-btn-disabled span.l-btn-left
+{
+	background-position: top left;
+}
+/*
+a.c-l-btn-disabled:hover {
+    background-position: right bottom;
+}
+a.c-l-btn-disabled:hover span.c-l-btn-left {
+    background-position: left bottom;
+}*/
+a.c-l-btn .c-l-btn-focus
+{
+	outline: thin dotted #0000FF;
+}
